@@ -1,6 +1,6 @@
 <?php
 
-    echo "<h1>Hello Slim World</h1>";
+    echo "<h1>Hello  World from app server</h1>";
 ?>
 
 
