@@ -1,9 +1,8 @@
 <?php
-require_once "../vendor/autoload.php";
+require_once "vendor/autoload.php";
 
 $app = new Slim(array(
-    "MODE" => "development",
-    "TEMPLATES.PATH" => "./templates"
+    "MODE" => "development"
 ));
 
 $app->get("/", function() {
